@@ -4,7 +4,7 @@ import "./MenuItemComponent.css"
 export default function MenuItemComponent({item}: {item: MenuItem}){
     const {ingredients, title, price, category} = item;
     return (
-    <li>
+    <li className="menu-item">
         <h2 className="title">{title}</h2>
         <p className="category">{category}</p>
         <p className="ingredients">{ingredients}</p>
