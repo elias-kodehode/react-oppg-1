@@ -1,0 +1,30 @@
+li{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: white;
+    text-wrap: balance;
+}
+
+.price{
+    color:white;
+    align-self: flex-end;
+    font-style: italic;
+}
+
+
+.category, .ingredients{
+    color:white;
+    opacity: .5;
+}
+
+.ingredients{
+    font-style: italic;
+    flex:1;
+}
